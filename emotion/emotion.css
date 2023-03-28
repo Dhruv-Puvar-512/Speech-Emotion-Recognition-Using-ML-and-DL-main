@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	margin: 0px 0px;
+}
+
+nav,
+footer {
+	display: flex;
+	background-color: rgb(141, 236, 248);
+}
+
+nav a,
+footer a {
+	text-align: center;
+	display: block;
+	float: right;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 5px 13px;
+}
+nav img {
+	border-radius: 50%;
+}
+section {
+	background-color: rgb(218, 240, 98);
+	padding: 45px 0px;
+}
+.divwrap {
+	background-color: white;
+	text-align: center;
+	border-radius: 15px;
+	margin: 15px 15px 15px 15px;
+	display: flex;
+	padding: 5px 25px 5px 25px;
+	box-shadow: 5px 7px 5px 7px rgb(65, 62, 62);
+}
+.wrap1 {
+	width: 50%;
+}
+div h3 {
+	text-align: center;
+	padding: 15px 50px;
+	border-radius: 35px;
+}
+.wrap2 {
+	border-radius: 20px;
+	width: 50%;
+	background-color: rgb(145, 230, 236);
+}
+.wrap2div2 {
+	border-radius: 20px;
+	background-color: white;
+	padding: 15px 15px 15px 15px;
+	margin: 20px 25px 10px 25px;
+	box-shadow: 5px 5px 5px 5px rgb(23, 79, 105);
+}
+.wrap2div1 {
+	border-radius: 20px;
+	background-color: blanchedalmond;
+	padding: 5px 5px 5px 5px;
+	margin: 10px 25px 10px 25px;
+	box-shadow: 5px 5px 5px 5px rgb(23, 79, 105);
+}
+
+.wrap2div2 h2 {
+	margin: 20px 0px 0px 0px;
+}
+p input {
+	padding: 5px 5px 5px 5px;
+	margin: 15px 15px 15px 15px;
+}
+#name {
+	text-align: center;
+}
+.name {
+	margin: 0px 55px 0px 15px;
+}
+#submit,
+#browse {
+	text-align: center;
+}
+#dhruv {
+	color: rgb(252, 38, 0);
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+}
+
+.browse:hover {
+	cursor: pointer;
+}
+
+#dhruv:hover {
+	color: rgb(68, 0, 255);
+	padding: 5px 15px 5px 15px;
+	border-radius: 30px;
+	cursor: pointer;
+	box-shadow: 5px 5px 0px 0px rgb(23, 79, 105);
+	font-size: large;
+}
+span {
+	padding: 25px 15px 15px 15px;
+}
+/* .happy,
+.sad,
+.angry,
+.disgust,
+.surprise,
+.neutral,
+.calm,
+.fear {
+	filter: invert(1);
+} */
+
+@media screen and (max-width: 700px) {
+	nav,
+	footer {
+		flex-direction: column;
+	}
+	.divwrap,
+	.wrap2div1,
+	.wrap2div2 {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+	}
+}
